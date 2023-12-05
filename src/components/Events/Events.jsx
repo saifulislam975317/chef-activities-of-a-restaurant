@@ -17,7 +17,11 @@ const Events = () => {
       <div className="flex justify-center items-center ">
         <div className="card w-96 bg-base-100 shadow-xl">
           <figure>
-            <img src={wedding} alt="Shoes" />
+            <img
+              className="hover:-translate-y-2 duration-700 cursor-pointer"
+              src={wedding}
+              alt="Shoes"
+            />
           </figure>
           <div className="card-body">
             <h2 className="card-title">Wedding Reception</h2>
@@ -25,7 +29,11 @@ const Events = () => {
         </div>
         <div className="card w-96 mx-8 bg-base-100 shadow-xl">
           <figure>
-            <img src={dinner} alt="Shoes" />
+            <img
+              className="hover:-translate-y-2 duration-700 cursor-pointer"
+              src={dinner}
+              alt="Shoes"
+            />
           </figure>
           <div className="card-body ">
             <h2 className="card-title">Corporate Dinner</h2>
@@ -33,7 +41,11 @@ const Events = () => {
         </div>
         <div className="card w-96 bg-base-100 shadow-xl">
           <figure>
-            <img src={socialEvents} alt="Shoes" />
+            <img
+              className="hover:-translate-y-2 duration-700 cursor-pointer"
+              src={socialEvents}
+              alt="Shoes"
+            />
           </figure>
           <div className="card-body">
             <h2 className="card-title">Social Events</h2>
@@ -41,7 +53,11 @@ const Events = () => {
         </div>
         <div className="card w-96 ml-8 bg-base-100 shadow-xl">
           <figure>
-            <img src={nonProfit} alt="Shoes" />
+            <img
+              className="hover:-translate-y-2 duration-700 cursor-pointer"
+              src={nonProfit}
+              alt="Shoes"
+            />
           </figure>
           <div className="card-body">
             <h2 className="card-title">Non Profit Event</h2>
