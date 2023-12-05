@@ -9,27 +9,43 @@ const Events = () => {
       <h1 className="text-5xl font-bold text-center">
         Plan Your Event With Our <br /> Services
       </h1>
-      <p className="text-center my-4">
+      <p className="text-center mt-4 mb-12">
         Gravida nascetur elementum gravida congue netus neque, dui. Sit eget
         mattis nisi lacus duis <br /> nulla accumsan viverra vulputate. A ut
         pretium ullamcorper.
       </p>
       <div className="flex justify-center items-center ">
-        <div>
-          <img src={wedding} alt="" />
-          <p>Wedding Reception</p>
+        <div className="card w-96 bg-base-100 shadow-xl">
+          <figure>
+            <img src={wedding} alt="Shoes" />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">Wedding Reception</h2>
+          </div>
         </div>
-        <div className="mx-4">
-          <img src={dinner} alt="" />
-          <p>Corporate Dinner</p>
+        <div className="card w-96 mx-8 bg-base-100 shadow-xl">
+          <figure>
+            <img src={dinner} alt="Shoes" />
+          </figure>
+          <div className="card-body ">
+            <h2 className="card-title">Corporate Dinner</h2>
+          </div>
         </div>
-        <div>
-          <img src={socialEvents} alt="" />
-          <p>Social Events</p>
+        <div className="card w-96 bg-base-100 shadow-xl">
+          <figure>
+            <img src={socialEvents} alt="Shoes" />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">Social Events</h2>
+          </div>
         </div>
-        <div className="ml-4">
-          <img src={nonProfit} alt="" />
-          <p>Non Profit Event</p>
+        <div className="card w-96 ml-8 bg-base-100 shadow-xl">
+          <figure>
+            <img src={nonProfit} alt="Shoes" />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">Non Profit Event</h2>
+          </div>
         </div>
       </div>
     </div>
