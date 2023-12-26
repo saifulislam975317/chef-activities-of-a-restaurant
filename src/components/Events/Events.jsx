@@ -18,6 +18,11 @@ const Events = () => {
         mattis nisi lacus duis <br /> nulla accumsan viverra vulputate. A ut
         pretium ullamcorper.
       </p>
+      <p className="text-center mt-4 mb-12">
+        Gravida nascetur elementum gravida congue netus neque, dui. Sit eget
+        mattis nisi lacus duis <br /> nulla accumsan viverra vulputate. A ut
+        pretium ullamcorper.
+      </p>
       <div className="flex justify-center items-center ">
         <div className="card w-96 bg-base-100 shadow-xl">
           <figure>
