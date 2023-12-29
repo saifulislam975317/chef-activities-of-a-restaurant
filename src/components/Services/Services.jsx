@@ -24,6 +24,10 @@ const Services = () => {
               Dolor sit amet consectetuer adipiscn elit commodo ligula eget
               dolor. Aenean etsa massa Cum sociis natoque.
             </p>
+            <p>
+              Dolor sit amet consectetuer adipiscn elit commodo ligula eget
+              dolor. Aenean etsa massa Cum sociis natoque.
+            </p>
           </div>
         </div>
         <div>
